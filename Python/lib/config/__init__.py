@@ -27,7 +27,7 @@ try:
             '.xidian_scripts', 'config', 'captcha.png'
         )))[1] == '2238')
 except:
-    USE_TESSERACT = False
+    USE_TESSERACT = True
 
 # export_timetable
 USE_LATEST_SEMESTER = True  # 自动获取学期学年信息, 若为True, 可以不填写下方配置项
